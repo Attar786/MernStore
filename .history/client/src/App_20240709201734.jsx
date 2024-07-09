@@ -5,6 +5,7 @@ import Header from '../components/Header'
 import Footer from '../components/Footer'
 import HomeScreen from '../screen/HomeScreen'
 import { Product } from '../components/Product'
+// import Products from '../components/Product'
 
 function App() {
   
@@ -14,6 +15,7 @@ function App() {
       <Header/>
       <Container>
 <HomeScreen />
+{/* <Products/> */}
 
 <Product/>
       </Container>

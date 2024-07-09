@@ -3,8 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import './App.css'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
-import HomeScreen from '../screen/HomeScreen'
-import { Product } from '../components/Product'
+import Homesc from '../screen/Homesc'
 
 function App() {
   
@@ -13,9 +12,7 @@ function App() {
     <>
       <Header/>
       <Container>
-<HomeScreen />
-
-<Product/>
+<Homesc />
       </Container>
       <Footer/>
      

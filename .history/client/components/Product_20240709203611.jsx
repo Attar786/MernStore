@@ -1,0 +1,21 @@
+import { Card } from "react-bootstrap";
+
+export const Product = ({ product }) => {
+  return ( 
+<>
+
+    <h1>hht</h1>
+    <Card className="my-3 py-3 rounded">
+      <a href="{`/product/${product._id}`}">
+<Card.Img src={product.Img} variant="top"/>
+      </a>
+      <Card.Body>
+
+      </Card.Body>
+    </Card>
+    </>
+    
+  );
+};
+
+// export default Product;
