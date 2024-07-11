@@ -8,9 +8,8 @@ const Header = () => {
     <Navbar  bg='dark' variant='dark'  expand='lg'>
 
 <Container>
-  <LinkContainer to = '/'>
-    <Navbar.Brand >MerN Store</Navbar.Brand>
-    </LinkContainer>
+<LinkContainer>
+    <Navbar.Brand href='#home'>MERN Store</Navbar.Brand>
     <Navbar.Toggle aria-controls='basic-navbar-nav'/>
     <Navbar.Collapse id='basic-navbar-nav'>
     <Nav className='ms-auto'>
@@ -22,7 +21,9 @@ const Header = () => {
       <Nav.Link href='#profile'><FaUser size={24} /></Nav.Link>
     </Nav>
     </Navbar.Collapse>
+    </LinkContainer>
   </Container>
+  
     </Navbar>
    </header>
   )

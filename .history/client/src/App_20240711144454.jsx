@@ -4,9 +4,7 @@ import './App.css'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
 import HomeScreen from '../screen/HomeScreen'
-import { Outlet } from 'react-router-dom'
-
-// import { Product } from '../components/Product'
+import { Product } from '../components/Product'
 
 function App() {
   
@@ -15,8 +13,7 @@ function App() {
     <>
       <Header/>
       <Container>
-{/* <HomeScreen /> */}
-<Outlet/>
+<HomeScreen />
 {/* <Product/> */}
       </Container>
       <Footer/>

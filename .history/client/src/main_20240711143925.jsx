@@ -9,12 +9,14 @@ import {
 } from "react-router-dom";
 import './assets/styles/bootstrap.custom.css';
 import "./assets/styles/index.css";
-import HomeScreen from '../screen/HomeScreen';
+import HomeScreen from '../screen/HomeScreen.jsx';
 
 const router = createBrowserRouter(
   createRoutesFromElements(
-    <Route path='/' element={<App />}>
-      <Route index={true} path='/' element={<HomeScreen />} />
+    <R path='/' element={<App />}>
+     <Route path='/' index='true' element={<HomeScreen></HomeScreen>}>
+
+     
     </Route>
   )
 );
@@ -22,6 +24,8 @@ const router = createBrowserRouter(
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <RouterProvider router={router} />
+    <RouterProvider router={router}>
+      <App />
+    </RouterProvider>
   </React.StrictMode>
 );
