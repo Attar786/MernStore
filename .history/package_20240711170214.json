@@ -1,0 +1,12 @@
+{
+  "name": "mernstore",
+  "version": "1.0.0",
+  "description": "Store with MERN Stack",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "test": "node backend/server.js"
+  },
+  "author": "Atta",
+  "license": "ISC"
+}
